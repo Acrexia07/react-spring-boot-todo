@@ -8,7 +8,7 @@ function TodoPage () {
     const todoList = [
                         {id: 1, description: 'Learn AWS', done: true, targetDate:targetDate},
                         {id: 2, description: 'Learn GCP', done: true, targetDate:targetDate},
-                        {id: 3, description: 'Learn Docker', done: false, targetDate:targetDate},
+                        {id: 1, description: 'Learn Docker', done: false, targetDate:targetDate},
                 ]
 
 
@@ -25,7 +25,7 @@ function TodoPage () {
                     </tr>
                 </thead>
                 <tbody>
-                    {M
+                    {
                         todoList.map (
                             todo => (
                                 <tr key={todo.id}>
